@@ -121,6 +121,7 @@ body {
 .gif-result {
   border-radius: 10px;
   margin-bottom: 2rem;
+  position: center;
 }
 
 .result-container h2 {
