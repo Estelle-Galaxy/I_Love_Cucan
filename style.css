@@ -108,20 +108,23 @@ body {
 .result-container {
   display: none;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-100%, -50%);
+  -moz-transform: translate(-50%, -50%);
   transition: 0.2s;
 }
 
 .gif-result {
+  width: 100%;
+  max-width: 300px;
   border-radius: 10px;
-  margin-bottom: 2rem;
-  position: center;
+  display: block;
+  margin: 0 auto 3rem auto;
+  pointer-events: none;
 }
 
 .result-container h2 {
